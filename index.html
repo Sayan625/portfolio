@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
+        header { background: #333; color: white; padding: 20px; font-size: 24px; }
+        section { padding: 40px; }
+        .projects-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+        .project-card { background: #fff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px; padding: 20px; max-width: 300px; text-align: center; cursor: pointer; text-decoration: none; }
+        .project-card:hover { transform: scale(1.05); transition: 0.15s ease-in-out; }
+        .project-card h3, .project-card p { margin: 0; }
+        .project-card iframe { width: 100%; height: 200px; border: none; margin-top: 10px; pointer-events: none; }
+        footer { background: #333; color: white; padding: 10px; position: relative; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+    <header> Hello I am Sayan Guha</header>
+    <section id="about">
+        <h2>About Me</h2>
+        <h4>Game and web developer specializing in Unity, WebGL, and Web Apps.
+            <br>I focus on creating efficient, modular, and high-performance applications and scalable web solutions.</h4>
+    </section>
+    <section id="projects">
+        <h2>Games</h2>
+        <div class="projects-container">
+            <a href="https://sayan625.github.io/slot_tm_build/" target="_blank" class="project-card">
+                <img width="100%" src="./thumbnails/time_machine.jpg" alt="">
+                <h3>Time Machine Slot Game</h3>
+            </a>
+            <a href="https://sayan625.github.io/build-2048/" target="_blank" class="project-card">
+                <img width="100%" src="./thumbnails/2048.jpg" alt="">
+                <h3>2048 Game</h3>
+            </a>
+            <a href="https://sayan625.github.io/build-slot/" target="_blank" class="project-card">
+                <img width="100%" src="./thumbnails/basic_slot.jpg" alt="">
+                <h3>Basic slot Game</h3>
+            </a>
+            <a href="https://sayan625.github.io/endless_runner_build/" target="_blank" class="project-card">
+                <img width="100%" src="./thumbnails/endless_runner.jpg" alt="">
+                <h3>Endless runner Game</h3>
+            </a>
+            <a href="https://sayan625.github.io/blast_it/" target="_blank" class="project-card">
+                <img width="100%" src="./thumbnails/blast_it.jpg" alt="">
+                <h3>Blast it Game</h3>
+            </a>
+        </div>
+        
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <a href="https://talentacquaintance.com/" target="_blank" class="project-card">
+                <img width="100%" src="./thumbnails/TalentAquitance.jpg" alt="">
+                <h3>Built and Hosted
+                Website of Talent Aquitance</h3>
+            </a>
+            <a href="https://adoreglobal.org/team" target="_blank" class="project-card">
+                <img width="100%" src="./thumbnails/adore.jpg" alt="">
+                <h3>Managed Backend of
+                     Adore Global</h3>
+            </a>
+            <a href="https://nure-7d7f8f.netlify.app/" target="_blank" class="project-card">
+                <img width="100%" src="./thumbnails/full_stackEcom.jpg" alt="">
+                <h3>Full stack Ecom App</h3>
+            </a>
+            <a href="https://crypto-9d6670.netlify.app/" target="_blank" class="project-card">
+                <img width="100%" src="./thumbnails/coin_tracker.jpg" alt="">
+                <h3>Crypto Coin Tracker</h3>
+            </a>
+            <a href="https://covid-tracker-742926.netlify.app/" target="_blank" class="project-card">
+                <img width="100%" src="./thumbnails/covid_tracker.jpg" alt="">
+                <h3>Covid Tracker</h3>
+            </a>
+            <a href="https://todoapp-bffb2f.netlify.app/" target="_blank" class="project-card">
+                <img width="100%" src="./thumbnails/full_stack_todo.jpg" alt="">
+                <h3>Full Stack Todo App</h3>
+            </a>
+        </div>
+        
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: sayanguha014@gmail.com</p>
+        <p>LinkedIn | GitHub </p>
+    </section>
+</body>
+</html>
